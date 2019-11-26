@@ -13,10 +13,10 @@ Above data is formatted in simple layout with the option to export the data in c
 Below are the steps that needs to be followed 
 1. Download rpm file from https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-1.0.0-1.noarch.rpm
 2. Install rpm file using below command
-  rpm -ivh tracer-1.0.0-1.noarch.rpm
+  > rpm -ivh tracer-1.0.0-1.noarch.rpm
 3. Now, execute 'ltracer' [as root user or with sudo]
-  sudo ltracer
-4. It will display welcome screen and prompt for Input form listed option
+  > sudo ltracer
+4. It will display welcome screen and prompt for Input form listed options
 5. After submitting your choice now it will display requested information in a viewer [to exit from viewer press 'q' button in keyboard]
 6. Upon exit from viewer it will prompt "Would you like to save this report [Y/N]"
 7. If you choose 'Y' then it will save report on /tmp directory and also displays file location on your terminal for your reference.
