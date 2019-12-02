@@ -5,7 +5,7 @@ It is tricky to handle audit logs for login information especially if you have m
 
 Linux kernel by default keeps track of login information but those logs are binary files.
 
-ltracer utility uses linux kernel utilities to translate binary log files to Human readable format and then extract mostly interested columns out of several columns.
+ltracer utility reports login [attempts via SSH] related information with the support from linux kernel utilities to collect data from kernel files [translate binary log files to Human readable format] and then extract mostly interested columns out of several columns.
 
 Above data is formatted in simple layout with the option to export the data in csv format for analysis.
 
