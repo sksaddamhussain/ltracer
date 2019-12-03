@@ -11,7 +11,7 @@ Displayed data is formatted in simple layout with the option to export the data 
 
 # How to use this utility
 Below are the steps that needs to be followed 
-1. Download rpm file from https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-2.0.0-2.x86_64.rpm
+1. Download rpm file from repository <https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-2.0.0-2.x86_64.rpm>
   > wget https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-2.0.0-2.x86_64.rpm
 2. Install utility from rpm file using below command
   > rpm -ivh tracer-2.0.0-2.noarch.rpm
