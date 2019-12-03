@@ -1,7 +1,7 @@
 # ltracer (Login Tracer)
 Utility is designed to report login related information
 
-It is tricky to handle audit logs for login information especially if you have multiple auditd rules configured and also there are chances that due to intteruption of auditd service you will endup with no sufficent information.
+It is tricky to handle audit logs for login information especially if you have multiple auditd rules configured and also there are chances that due to intterupted auditd service you will endup with no sufficent information.
 
 Linux kernel by default keeps track of login information but those logs are binary files.
 
