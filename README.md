@@ -12,8 +12,9 @@ Displayed data is formatted in simple layout with the option to export the data 
 # How to use this utility
 Below are the steps that needs to be followed 
 1. Download rpm file from https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-2.0.0-2.x86_64.rpm
-2. Install rpm file using below command
-  > rpm -ivh tracer-1.0.0-1.noarch.rpm
+  > wget https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-2.0.0-2.x86_64.rpm
+2. Install utility from rpm file using below command
+  > rpm -ivh tracer-2.0.0-2.noarch.rpm
 3. Now, execute 'ltracer' [as root user or with sudo]
   > sudo ltracer
 4. It will display welcome screen and prompt for Input form listed options
@@ -21,5 +22,7 @@ Below are the steps that needs to be followed
 6. Upon exit from viewer it will prompt "Would you like to save this report [Y/N]"
 7. If you choose 'Y' then it will save report on /tmp directory and also displays file location on your terminal for your reference.
 8. After above step program gets terminated.
+9. More information can be accessed from man page
+  > man ltracer
 
 Your feedback is highly appreciated.
