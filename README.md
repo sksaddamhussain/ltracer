@@ -14,7 +14,7 @@ Below are the steps that needs to be followed
 1. Download rpm file from repository <https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-2.0.0-2.x86_64.rpm>
   > wget https://raw.githubusercontent.com/sksaddamhussain/ltracer/master/ltracer-2.0.0-2.x86_64.rpm
 2. Install utility from rpm file using below command
-  > rpm -ivh tracer-2.0.0-2.noarch.rpm
+  > rpm -ivh ltracer-2.0.0-2.x86_64.rpm
 3. Now, execute 'ltracer' [as root user or with sudo]
   > sudo ltracer
 4. It will display welcome screen and prompt for Input form listed options
